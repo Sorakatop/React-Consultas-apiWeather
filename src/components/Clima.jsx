@@ -12,7 +12,7 @@ const Clima = ({resultado}) => {
 
     const urlIcon=`http://openweathermap.org/img/wn/${weather[0].icon}.png`
     return (
-        <div className='card-panel  col s12 grey '> 
+        <div className='card-panel  col s12 white '> 
         <div className='black-text'>
             <h2>El clima de {name} es: </h2>
             <h2 className='png' ><img src={urlIcon} alt="" />  {weather[0].description}</h2>
